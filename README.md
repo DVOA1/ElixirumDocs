@@ -4,7 +4,17 @@
 
 ---
 
-[Legal Notice](#legal-notice)
+<a id="legal-notice"></a>
+
+## Legal Notice
+
+This documentation is provided for **informational purposes only** and is not affiliated with or endorsed by the creators of Ars Elixirum. Ars Elixirum is the intellectual property of **Obscuria Team**, and all rights to the mod and its contents are reserved by them.
+
+The guide provided here explains how to create a datapack that interacts with Ars Elixirum, but the mod itself is not my work. All **trademarks, logos, and copyrighted content** related to Ars Elixirum **belong to their respective owners.**
+
+This documentation is intended for **personal, non-commercial use** and is meant to help users create custom content for the Ars Elixirum mod in compliance with the mod's terms and conditions.
+
+---
 
 ## Key Concepts
 
@@ -196,16 +206,6 @@ By default the compatible heat sources are the following:
   ]
 }
 ```
-
-<a id="legal-notice"></a>
-
-## Legal Notice
-
-This documentation is provided for **informational purposes only** and is not affiliated with or endorsed by the creators of Ars Elixirum. Ars Elixirum is the intellectual property of **Obscuria Team**, and all rights to the mod and its contents are reserved by them.
-
-The guide provided here explains how to create a datapack that interacts with Ars Elixirum, but the mod itself is not my work. All **trademarks, logos, and copyrighted content** related to Ars Elixirum **belong to their respective owners.**
-
-This documentation is intended for **personal, non-commercial use** and is meant to help users create custom content for the Ars Elixirum mod in compliance with the mod's terms and conditions.
 
 ---
 
