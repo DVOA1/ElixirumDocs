@@ -1,4 +1,4 @@
-# How to Make a Datapack for Ars Elixirum
+# Ars Elixirum Datapack Documentation
 
 ## Key Concepts
 
