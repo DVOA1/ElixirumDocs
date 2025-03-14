@@ -4,7 +4,7 @@
 
 ---
 
-[<center>Legal Notice</center>](#legal-notice)
+[Legal Notice](#legal-notice)
 
 ## Key Concepts
 
