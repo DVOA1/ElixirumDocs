@@ -2,6 +2,10 @@
 
 ![Ars Elixirum official logo](assets/logo.png)
 
+---
+
+[<center>Legal Notice</center>](#legal-notice)
+
 ## Key Concepts
 
 > NOTE: These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
