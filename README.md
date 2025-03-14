@@ -189,8 +189,4 @@ By default the compatible heat sources are the following:
 }
 ```
 
-Here is an example, i've added the create blaze burner as an heat source:
-
-![Blaze Burner under Glass Cauldron](/blaze_heat.png)
-
----
+##### DVOA1 | 2025
