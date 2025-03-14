@@ -1,5 +1,7 @@
 # Ars Elixirum Datapack Documentation
 
+![Ars Elixirum official logo](assets/logo.png)
+
 ## Key Concepts
 
 > NOTE: These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
@@ -201,4 +203,6 @@ The guide provided here explains how to create a datapack that interacts with Ar
 
 This documentation is intended for personal, non-commercial use and is meant to help users create custom content for the Ars Elixirum mod in compliance with the mod's terms and conditions.
 
-##### DVOA1 | 2025
+---
+
+##### Documentation written by DVOA1 | 2025
