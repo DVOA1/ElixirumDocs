@@ -91,7 +91,7 @@ Applies a random prefix to the essence (e.g., "Devastating elixir of strength").
 
 The most important folder. Here you will add your effects with the following parameters:
 
-- **category**: can be "NONE", "OFFENSIVE", "DEFENSIVE", "ENHANCING", "DIMINISHING".
+- **category**: can be "NONE", "OFFENSIVE", "DEFENSIVE", "ENHANCING", "DIMINISHING". This determines how the essence behaves with affixes.
 - **max_amplifier**: sets the maximum amplifier (starting from 0) the essence can have. The essence can have any amplifier below this number.
 - **max_duration**: sets the maximum duration the essence can have. The essence can have any duration below this number.
 - **mob_effect**: the ID of the effect you want to generate (e.g., "farmersdelight:comfort").
