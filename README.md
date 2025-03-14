@@ -1,4 +1,4 @@
-# Ars Elixirum Datapack Documentation
+#
 
 ![Ars Elixirum official logo](assets/logo.png)
 
