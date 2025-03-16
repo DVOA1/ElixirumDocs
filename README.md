@@ -14,8 +14,6 @@ This documentation is intended for **personal, non-commercial use** and is meant
 
 ---
 
-![Ars Elixirum official logo](assets/logo.png)
-
 ## Key Concepts
 
 > NOTE: These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
