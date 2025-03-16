@@ -207,7 +207,6 @@ By default the compatible heat sources are the following:
 
 ---
 
-<<<<<<< HEAD
 =======
 ## Legal Notice
 
@@ -219,5 +218,4 @@ This documentation is intended for personal, non-commercial use and is meant to 
 
 ---
 
->>>>>>> 5211c36 (add logo)
 ##### Documentation written by DVOA1 | 2025
