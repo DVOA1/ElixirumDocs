@@ -1,7 +1,5 @@
 # Ars Elixirum Documentation
 
----
-
 ## Legal Notice
 
 This documentation is provided for **informational purposes only** and is not affiliated with or endorsed by the creators of Ars Elixirum. Ars Elixirum is the intellectual property of **Obscuria Team**, and all rights to the mod and its contents are reserved by them.
