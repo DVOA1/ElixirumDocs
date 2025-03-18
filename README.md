@@ -2,8 +2,6 @@
 
 ---
 
-<a id="legal-notice"></a>
-
 ## Legal Notice
 
 This documentation is provided for **informational purposes only** and is not affiliated with or endorsed by the creators of Ars Elixirum. Ars Elixirum is the intellectual property of **Obscuria Team**, and all rights to the mod and its contents are reserved by them.
@@ -18,8 +16,12 @@ This documentation is intended for **personal, non-commercial use** and is meant
 
 > NOTE: These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
 
-- [Adding Custom Essences](#add-essence)
+- [Adding Custom Essences](#essence-folder)
+- [Manually setting ingredients for an item](#ingredient-preset-folder)
+
 - [Tags](#tags)
+  - [Filtering ingredient generation](#filter-ingredients)
+  - [Adding custom heat sources](#adding-new-heat-sources)
 
 ## Folders Structure
 
@@ -41,8 +43,6 @@ data/
 ```
 
 ---
-
-<a id="elixirum"></a>
 
 ## Elixirum Folder
 
@@ -101,16 +101,15 @@ Applies a random prefix to the essence (e.g., "Devastating elixir of strength").
 
 ---
 
-<a id="add-essence"></a>
-
 ### Essence Folder
 
-The most important folder. Here you will add your effects with the following parameters:
+The most important folder. Essences are what form the final elixir.
+Here you will add your effects with the following parameters:
 
 - **category**: can be "NONE", "OFFENSIVE", "DEFENSIVE", "ENHANCING", "DIMINISHING". This determines how the essence behaves with affixes.
 - **max_amplifier**: sets the maximum amplifier (starting from 0) the essence can have. The essence can have any amplifier below this number.
-- **max_duration**: sets the maximum duration the essence can have. The essence can have any duration below this number.
-- **mob_effect**: the ID of the effect you want to generate (e.g., "farmersdelight:comfort").
+- **max_duration**: sets the maximum duration, in game ticks, the essence can have. The essence can have any duration below this number.
+- **mob_effect**: the ID of the effect you want the essence to have (e.g., "farmersdelight:comfort").
 - **required_ingredients**: minimum amount of ingredient to make this essence non-pale.
 - **required_quality**: minimum amount of quality to make this essence non-weak.
 
@@ -133,7 +132,7 @@ The file name must be the effect name (without namespace).
 
 ### Ingredient Preset Folder
 
-Contains every ingredient with a set effect and weight.
+An ingredient preset is used to override completely the ingredient generation, by manually setting an ingredient to an item or tag with a corresponding weight (quantity). This will override any [tag filter](#filter-ingredients).
 > **Note**: Almost every item in the game will have a randomly generated effect based on the seed.
 
 **Parameters:**
@@ -156,8 +155,6 @@ The file name must be the item name.
 ```
 
 ---
-
-<a id="tags"></a>
 
 ## Tags
 
