@@ -200,6 +200,12 @@ By default the compatible heat sources are the following:
 }
 ```
 
+## Datapack override order
+
+> This is the order in which things can be overridden.
+
+`Ingredient Preset > Essence Blacklist > Essence Whitelist > Ingredient Generation`
+
 ---
 
 ##### Documentation written by DVOA1 | 2025
