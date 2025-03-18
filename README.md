@@ -12,7 +12,8 @@ This documentation is intended for **personal, non-commercial use** and is meant
 
 ## Key Concepts
 
-> NOTE: These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
+> [!IMPORTANT]  
+> These key points are not the only things this guide provides. These are only the most important concepts to make more relevant things in the datapack.
 
 - [Adding Custom Essences](#essence-folder)
 - [Manually setting ingredients for an item](#ingredient-preset-folder)
@@ -131,7 +132,9 @@ The file name must be the effect name (without namespace).
 ### Ingredient Preset Folder
 
 An ingredient preset is used to override completely the ingredient generation, by manually setting an ingredient to an item or tag with a corresponding weight (quantity). This will override any [tag filter](#filter-ingredients).
-> **Note**: Almost every item in the game will have a randomly generated effect based on the seed.
+
+> [!NOTE]  
+> Almost every item in the game will have a randomly generated effect based on the seed.
 
 **Parameters:**
 
@@ -164,7 +167,10 @@ Here's how:
 
 ### Filter Ingredients
 
-To add an item to the ingredient gen blacklist, you add the tag `#elixirum:essence_blacklist`. This will **ALWAYS** override the whitelist
+To add an item to the ingredient gen blacklist, you add the tag `#elixirum:essence_blacklist`. 
+
+> [!NOTE]  
+> The essence blacklist will **ALWAYS** override the whitelist
 
 You can also add item to a whitelist by adding the tag `#elixirum:essence_whitelist`. Does nothing if the item is in the blacklist.
 
